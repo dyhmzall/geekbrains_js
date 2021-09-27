@@ -1,3 +1,5 @@
+'use strict';
+
 function plural(value, form1, form2, form3) {
 
     let last_digit = value % 10;
