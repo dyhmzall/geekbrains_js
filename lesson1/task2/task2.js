@@ -1,8 +1,6 @@
 'use strict';
 
-let admin, name;
-
-name = 'Василий';
-admin = name;
+let name = 'Василий';
+let admin = name;
 
 console.log(admin);
