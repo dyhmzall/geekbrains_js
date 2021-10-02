@@ -1,5 +1,12 @@
 'use strict';
 
+/**
+ *
+ * @param arg1 {number}
+ * @param arg2 {number}
+ * @param operation {string}
+ * @returns {number}
+ */
 function mathOperation(arg1, arg2, operation) {
 
     switch (operation) {
@@ -12,7 +19,7 @@ function mathOperation(arg1, arg2, operation) {
         case '/':
             return customDiv(arg1, arg2);
         default:
-            throw 'Operation not found!'
+            throw 'Operation not found!';
     }
 }
 
