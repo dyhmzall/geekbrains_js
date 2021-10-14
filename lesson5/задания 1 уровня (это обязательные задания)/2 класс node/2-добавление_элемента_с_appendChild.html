@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+
     <div>
 
     </div>
@@ -14,6 +14,13 @@
     <!-- Задание. Добавьте в div c помощью appendChild следующую разметку:
     <h3>hello world</h3>
     -->
+    <script>
+        'use strict';
+
+        let h3El = document.createElement('h3');
+        h3El.innerText = 'hello world';
+        document.querySelector('div').appendChild(h3El);
+    </script>
 
     <script>
 
