@@ -22,6 +22,14 @@
 
     <!-- Задание. Найдите элемент с классом .dropdown-menu и удалите этот класс, используя свойство classList
     у элемента, и метод remove(). -->
+    <script>
+        'use strict';
+
+        document.querySelector('#dropdownMenuButton').addEventListener('click', function () {
+            document.querySelector('.dropdown-menu').classList.remove('dropdown-menu');
+        });
+    </script>
+
 </body>
 
 </html>

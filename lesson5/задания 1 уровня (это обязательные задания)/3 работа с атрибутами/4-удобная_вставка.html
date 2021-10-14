@@ -7,11 +7,18 @@
 </head>
 <body>
     
-    <div class="menu"></div>
+    <div class="menu">12</div>
 
     <!-- Задание. Добавьте в div с классом .menu следующую разметку:
     <a href="#">link</a>
     используя метод insertAdjacentHTML.
+
     -->
+
+    <script>
+        'use strict';
+
+        document.querySelector('div.menu').insertAdjacentHTML('beforebegin', '<a href="#">link</a>');
+    </script>
 </body>
 </html>
