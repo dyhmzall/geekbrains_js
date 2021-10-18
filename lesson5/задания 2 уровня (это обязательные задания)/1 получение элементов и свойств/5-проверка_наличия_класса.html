@@ -13,5 +13,16 @@
     2. Затем обратитесь к списку классов и с помощью метода contains()
     проверьте есть ли класс hidden у этого тега.
      -->
+
+    <script>
+        'use strict';
+
+        let elem = document.querySelector('div');
+        let classes = elem.classList;
+        classes.forEach(function (elemClass) {
+            console.log(elemClass);
+        });
+    </script>
+
 </body>
 </html>
