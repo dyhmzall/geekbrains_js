@@ -18,10 +18,11 @@
         'use strict';
 
         let elem = document.querySelector('div');
-        let classes = elem.classList;
-        classes.forEach(function (elemClass) {
-            console.log(elemClass);
-        });
+        if (elem.classList.contains('hidden')) {
+            console.log('elem has class "hidden"');
+        } else {
+            console.log('elem has not class "hidden"');
+        }
     </script>
 
 </body>
